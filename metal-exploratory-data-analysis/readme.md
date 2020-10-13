@@ -9,7 +9,7 @@ Once I get that data I cleaned up with SQLite and upload the csv file to Datastu
 
 ![](https://user-images.githubusercontent.com/44582985/95865275-c782de80-0d66-11eb-8785-08f690ed216c.png)
 
-The csv file is too large to upload to github, so if anyone is interested in this database, can write me to jorgecarrion.l@gmail and I'll send it.
+The csv file is too large to upload it to github, so if anyone is interested in this database, you can write me to jorgecarrion.l@gmail and I'll send it to you.
 
 
 
