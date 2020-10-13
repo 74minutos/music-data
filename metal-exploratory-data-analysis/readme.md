@@ -1,4 +1,4 @@
-Through different process I tried to manage a exploratory data analysis about metal and all of its subgenres.
+Through different processes I tried to manage a exploratory data analysis about metal and all of its subgenres.
 
 Here's the [result](https://datastudio.google.com/s/mStoZ_KrrJc)
 
