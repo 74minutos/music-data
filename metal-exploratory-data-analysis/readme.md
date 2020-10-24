@@ -1,3 +1,9 @@
+* [Overview](#Overview)
+* [Usage](#Usage)
+  * [Install](#Install)
+  * [Load csv into sqlite](#Load-csv-into-sqlite)
+  * [Run unit tests](#Run-unit-tests)
+
 # Overview
 
 Through different processes I tried to manage a exploratory data analysis about metal and all of its subgenres.
@@ -23,6 +29,16 @@ This installs a selfcontained virtualenv to avoid interfering with the rest of t
   `env/bin/pip install -r requirements.txt`
 
 You can enter the interpreter via `env/bin/python`
+
+## Load csv into sqlite
+
+You can transform a source csv file into a sqlite database like so:
+
+```
+env/bin/python simple_schema.py --csv_file sample_metallum.csv --output_file simple_schema.sqlite
+```
+
+You can now load it with `sqlite3 simple_schema.sqlite`
 
 ## Run unit tests
 

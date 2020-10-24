@@ -42,3 +42,16 @@ class Test(unittest.TestCase):
         cur.execute("select count(*) from albums")
         count = cur.fetchone()[0]
         self.assertTrue(count > 0)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--csv_file", required=True, help="path to csv file to load")
+    parser.add_argument("--output_file", required=True, help="path to output sqlite file")
+    args = parser.parse_args()
+
+    conn = sqlite3.connect(args.output_file)
+    init_db(conn)
+
+    with open(args.csv_file) as f:
+        load_csv(f, conn)
